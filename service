@@ -1,0 +1,16 @@
+#!/usr/bin/python2.7
+
+import time
+import traceback
+
+from hosted import CONFIG, NODE
+CONFIG.restart_on_update()
+
+if __name__ == "__main__":
+    while True:
+        try:
+            # Do something here
+            time.sleep(10)
+        except Exception:
+            traceback.print_exc()
+            time.sleep(10)

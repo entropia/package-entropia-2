@@ -1,0 +1,29 @@
+{
+  "__metadata": {
+    "api": "",
+    "device_id": 0,
+    "instance_id": 0,
+    "package_id": 0,
+    "scratch": "",
+    "secrets": {
+      "account": "",
+      "setup": ""
+    },
+    "setup_id": 0
+  },
+  "bg_color": {
+    "a": 1,
+    "b": 0,
+    "g": 0,
+    "hex": "000000",
+    "r": 0,
+    "rgba": [
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  "font": "Inconsolata-Bold.ttf",
+  "rotation": 0
+}

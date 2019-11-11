@@ -1,0 +1,41 @@
+{
+    "name": "Entropia",
+    "permissions": {
+        "network": "Needs to access API"
+    },
+    "options": [
+      {
+        "title": "Font",
+        "name": "font",
+        "type": "select",
+        "ui_width": 12,
+        "hint": "Select font",
+        "options": [
+            ["Inconsolata-Bold.ttf", "Inconsolata Bold"],
+            ["Inconsolata-Regular.ttf", "Inconsolata Regular"]
+        ],
+        "default": "Inconsolata-Bold.ttf"
+      },
+      {
+        "type": "color",
+        "title": "Background color",
+        "name": "bg_color",
+        "ui_width": 6,
+        "default": [0,0,0,1]
+      },
+      {
+        "title": "Display rotation",
+        "ui_width": 6,
+        "name": "rotation",
+        "type": "select",
+        "hint": "Rotate content clockwise?",
+        "options": [
+            [0, "None"],
+            [90, "90°"],
+            [180, "180°"],
+            [270, "270°"]
+        ],
+        "default": 0
+      }
+    ]
+}
